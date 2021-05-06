@@ -12,6 +12,11 @@ Exercises
 
 from turtle import *
 from freegames import vector
+<<<<<<< HEAD
+=======
+import math
+import turtle
+>>>>>>> 554382dd403f03632af31d9542be2dc360bac9f2
 
 def line(start, end):
     "Draw line from start to end."
@@ -35,6 +40,7 @@ def square(start, end):
 
 def circle(start, end):
     "Draw circle from start to end."
+<<<<<<< HEAD
     pass  # TODO
 
 def rectangle(start, end):
@@ -66,6 +72,21 @@ def triangle(start, end):
         left(120)
 
     end_fill()
+=======
+    up()
+    goto(start.x, start.y)
+    down()
+    r = math.sqrt((start.x-end.x)**2+(start.y - end.y)**2)
+    turtle.circle(r)
+
+def rectangle(start, end):
+    "Draw rectangle from start to end."
+    pass  # TODO
+
+def triangle(start, end):
+    "Draw triangle from start to end."
+    pass  # TODO
+>>>>>>> 554382dd403f03632af31d9542be2dc360bac9f2
 
 def tap(x, y):
     "Store starting point or draw shape."
@@ -93,6 +114,10 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+<<<<<<< HEAD
+=======
+onkey(lambda: color('purple'), 'P')
+>>>>>>> 554382dd403f03632af31d9542be2dc360bac9f2
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
