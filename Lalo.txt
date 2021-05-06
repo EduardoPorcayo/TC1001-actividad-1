@@ -1,0 +1,14 @@
+commit 032a9d859bf2f9fed39fa167ec63ef369d93bdb8 (HEAD -> main, origin/main,
+origin/HEAD)
+Merge: 31079a0 554382d
+Author: cdgl <eeporcayo@gmail.com>
+Date:   Thu May 6 13:50:08 2021 -0500
+
+    TyR
+
+commit 31079a08a06b87f92ea5e965992ccb14ed3cfc35 (Triángulo/Rectángulo)
+Author: cdgl <eeporcayo@gmail.com>
+Date:   Thu May 6 13:41:33 2021 -0500
+
+    Triángulo y Rectángulo
+
